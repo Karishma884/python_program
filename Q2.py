@@ -1,6 +1,8 @@
-#Book Pages: Tom is reading a book that has 100 pages. If he has read 45
-#pages, how many pages does he have left to read?
-total_pages=100
-he_read=45
-pages_left= total_pages - he_read
-print("he has", pages_left, "pages left to read.")
+#give the example  the list numbers=[3,8,2,10,6], print the first, last and middle elements of the list.
+numbers=[3,8,2,10,6]
+first_element=numbers[0]
+last_element=numbers[-1]
+middle_element=numbers[len(numbers)//2]
+print("first_element",first_element)
+print("last_element",last_element)
+print("middle_element",middle_element)

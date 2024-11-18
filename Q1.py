@@ -1,6 +1,6 @@
-#Apples and Bananas: Sarah has 5 apples and her friend gives her 3 more.
-#How many apples does Sarah have now?
-Sarah_has_apple= 5
-friend_gives = 3
-total_apples = Sarah_has_apple + friend_gives
-print("Sarah has", total_apples, "apples now.")
+# create a list of 5 inegers and print the sum of all the elements.
+l=[8,65,22,42,101]
+s=0
+for i in l:
+    s+=i
+print("sum=",s)

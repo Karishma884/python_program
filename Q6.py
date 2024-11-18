@@ -1,6 +1,8 @@
-#Classroom Chairs: In a classroom, there are 20 chairs. If 5 are broken and
-#need to be removed, how many chairs are still usable?
-total_chairs=20
-broken_removed=5
-chairs_usable=total_chairs-broken_removed
-print(chairs_usable,"chairs are still usable")
+#
+matrix = [
+    [6, 28, 30],  
+    [9, 54, 60],  
+    [66, 8, 90]   
+]
+element = matrix[1][2] 
+print("Element in the second row and third column:", element)
