@@ -1,3 +1,4 @@
-#
-squares=[x**2 for x  in range(1,11)]
-print(squares)
+#print characters of a string using a for loop.
+my_string = "Hello, World!"
+for char in my_string:
+    print(char)

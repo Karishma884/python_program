@@ -1,8 +1,6 @@
-#
-fruit_prices = {
-    'apple': 50,
-    'banana': 20,
-    'orange': 30
-}
-grape_price = fruit_prices.get('grape', 'Price not found')
-print("The price of grape is:", grape_price)
+#print numbers from 1 to 10. if a number is divisible by 4, stop the loop using a for loop and 
+#break statement.
+for i in range(1, 11):
+    if i % 4 == 0:
+        break  # Stop the loop if the number is divisible by 4
+    print(i)

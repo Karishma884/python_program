@@ -1,7 +1,9 @@
-#
-letters = ('a', 'b', 'c', 'd')
-element = 'e'
-if element in letters:
-    print(f"'{element}' is present in the tuple.")
-else:
-    print(f"'{element}' is not present in the tuple.")
+#Calculate the sum of numbers from 1 to 100 using a while loop.
+total_sum = 0
+number = 1
+
+while number <= 100:
+    total_sum += number
+    number += 1
+
+print(f"The sum of numbers from 1 to 100 is {total_sum}.")

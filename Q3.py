@@ -1,4 +1,4 @@
-#
-fruits = ['apple', 'banana', 'cherry', 'date', 'elderberry']
-first_three_fruits = fruits[:3]
-print(first_three_fruits)
+#print even  numbers from 1 to 10 using a for loop
+for i in range(1, 11):
+    if i % 2 == 0:
+        print(i)

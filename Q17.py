@@ -1,8 +1,6 @@
-#
-grades = {
-    'A': 90,
-    'B': 80,
-    'C': 70
-}
-for key, value in grades.items():
-    print(f"Grade: {key}, Score: {value}")
+#print number from 1 to 10. if a number is even, skip it using a for loop and else clause.
+for i in range(1, 11):
+    if i % 2 == 0:
+        continue  # Skip even numbers
+    else:
+        print(i)

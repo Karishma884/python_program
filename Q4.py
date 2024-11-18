@@ -1,6 +1,3 @@
-#
-colors=['red', 'green', 'blue']
-colors.append('yellow')
-print(colors)
-colors.remove('green')
-print(colors)
+#print number in reverse from 1 to 10 using for loop.
+for i in range(10, 0, -1):
+    print(i)
