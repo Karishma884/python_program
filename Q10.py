@@ -1,14 +1,6 @@
-#Write a Python function monthly_payment(principal, rate, years) that
-#calculates the monthly mortgage payment for a given principal loan amount, annual
-#interest rate, and loan term in years. Use the formula
-def monthly_payment(principal, rate, years):
-    monthly_rate = rate / 100 / 12
-    num_payments = years * 12
-    if rate == 0:
-        return principal / num_payments
-    
-    payment = (principal * monthly_rate) / (1 - (1 + monthly_rate) ** -num_payments)
-    return payment
-principal = 300000 
-rate = 3.5         
-years = 30
+#Travel Distance: A car travels 60 miles in 1 hour. If it continues at the same
+#speed, how far will it travel in 2.5 hours?
+speed_mile_per_hour = 60
+time_hours = 2.5
+distance_travelled = speed_mile_per_hour * time_hours
+print("The car will travel", distance_travelled, "miles in 2.5 hours.")

@@ -1,10 +1,6 @@
-#Define a function find_maximum(a, b) that accepts two numbers and returns the larger number.
-def find_maximum(a,b):
-    if a>b:
-        return a
-    else:
-        return b
-x=int(input("enter the value of x:"))
-y=int(input("enter the value of y:"))
-z=find_maximum(x,y)
-print("the largest number:",z)
+#Book Pages: Tom is reading a book that has 100 pages. If he has read 45
+#pages, how many pages does he have left to read?
+total_pages=100
+he_read=45
+pages_left= total_pages - he_read
+print("he has", pages_left, "pages left to read.")
